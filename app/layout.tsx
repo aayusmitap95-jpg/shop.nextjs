@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-// import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
@@ -32,12 +32,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased text_gray-800 overflow-x-hidden min-h-screen`
       }
       >
-        {/* <Navbar /> */}
+        <Navbar />
         <main className="min-h-screen max-w-6xl mx-auto w-full px-6 py-6">
 
         {children}
         </main>
-        <footer />
+        <Footer />
       </body>
     </html>
 

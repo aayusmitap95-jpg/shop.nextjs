@@ -7,10 +7,7 @@ export default function HomePage() {
       <p className="text-gray-600 mb-6">
         A simple Next.js project using the DummyJSON API.
 
-      </p>
-          
-        
-      
+      </p>      
     </div>
 
   );
